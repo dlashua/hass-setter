@@ -2,6 +2,18 @@
 
 Will set states and restore them on start up.
 
+# Configuration
+
+Add the following line to `configuration.yaml`:
+
+```
+setter:
+```
+
+Alternately, you can add the Integration via the Home Assistant UI.
+
+There are no configuration options.
+
 # Setting a State
 
 ```

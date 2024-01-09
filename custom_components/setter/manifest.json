@@ -5,7 +5,7 @@
   "documentation": "https://github.com/dlashua/hass-setter",
   "issue_tracker": "https://github.com/dlashua/hass-setter/issues",
   "dependencies": [],
-  "codeowners": ["@dlashua"],
+  "codeowners": ["@dlashua", "@ThePrincelle"],
   "requirements": [],
   "config_flow": true
 }

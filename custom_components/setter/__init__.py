@@ -1,5 +1,4 @@
 import logging
-import asyncio
 
 from homeassistant.core import Context
 from homeassistant.helpers.restore_state import RestoreEntity
@@ -77,6 +76,7 @@ class SaverEntity(RestoreEntity):
     @property
     def state(self):
         return len(self._entities_db)
+
 
     async def async_added_to_hass(self):
         state = await self.async_get_last_state()
